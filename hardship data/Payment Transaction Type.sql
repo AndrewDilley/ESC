@@ -1,0 +1,8 @@
+SELECT TOP (1000) [code]
+      ,[description]
+      ,[user_add]
+      ,[user_add_ts]
+      ,[user_mod]
+      ,[user_mod_ts]
+      ,[rowid]
+  FROM [AQTEST].[dbo].[pay_tran_type]
